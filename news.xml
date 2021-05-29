@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news newsId="1">
+    <title>6 người Hà Nội nghi mắc Covid-19</title>
+    <description>6 người gồm bốn liên quan chùm lây nhiễm từ Bắc Ninh, một liên quan Công ty T&amp;T, một liên quan bệnh viện, được CDC Hà Nội thông báo dương tính nCoV chiều 29/5.</description>
+    <content>Ba nam, hai người cùng 23 tuổi, một người 63 tuổi. Một người sống ở xã Bắc Tiến, một người sống ở xã Quang Tiến, cùng huyện Sóc Sơn và tiếp xúc gần "bệnh nhân 3140"; một sống tại xã Cự Khê, Thanh Oai, tiếp xúc gần "bệnh nhân 3173". Ngày 8/5, ba người cách ly tại Trường Quân sự Sơn Tây. Kết quả xét nghiệm vào các ngày 8 và 22/5 đều âm tính nCoV. Sau đó, họ bị ho, đau đầu, ngứa họng ngày 28/5 được lấy mẫu xét nghiệm lần ba.</content>
+    <date>2021-05-29</date>
+    <author authorId="1">
+        <authorName>TA</authorName>
+        <avata>https://scontent.fpnh22-1.fna.fbcdn.net/v/t1.6435-9/84525721_889967231460152_2027770591494275072_n.jpg?_nc_cat=107&amp;ccb=1-3&amp;_nc_sid=09cbfe&amp;_nc_ohc=h3A16m2pdq0AX9dOH-0&amp;_nc_ht=scontent.fpnh22-1.fna&amp;oh=11bd8eacb55e526a8d1f90e8e0c3dff0&amp;oe=60D9A418</avata>
+    </author>
+    <category categoryId="1">
+        <categoryName>Sức khỏe</categoryName>
+    </category>
+    <tagList>
+        <tag tagId="1">
+            <tagName>Covid-19</tagName>
+        </tag>
+        <tag tagId="2">
+            <tagName>phòng chống Covid-19</tagName>
+        </tag>
+    </tagList>
+</news>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="news">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="description" type="xs:string"/>
+      <xs:element name="content" type="xs:string"/>
+      <xs:element name="date" type="xs:date"/>
+      <xs:element name="author">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="authorName" type="xs:string"/>
+            <xs:element name="avata" type="xs:string"/>
+          </xs:sequence>
+          <xs:attribute name="authorId" type="xs:integer" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    <xs:element name="category">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="categoryName" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="categoryId" type="xs:integer" use="required"/>
+      </xs:complexType>
+    </xs:element>
+    <xs:element name="tagList" maxOccurs="1">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="tag" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="tagName" type="xs:string"/>
+              </xs:sequence>
+              <xs:attribute name="tagId" type="xs:integer" use="required"/>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+    </xs:sequence>
+    <xs:attribute name="newsId" type="xs:integer" use="required"/>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
